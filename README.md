@@ -8,6 +8,13 @@ This work proposes a meta-learning framework for predicting generalization.
 ![](_assets/gap_definition.png) 
 Neural Complexity (NC) is a neural network which predicts the __generalization gap__ of other networks.
 
+## 1D Regression Experiments
+The code inside `1d_regression/` is orgnized as follows.
+- `run.py` : Main entry point. Implements MemoryBank and NC's specific training loop. Run with `python run.py --OPTIONS`
+- `model/` : Contains definition of the NC network, along with parallelized task learners.
+- `data/` : Sinewave data generator
+
+
 ## Citation
 If you find this useful in your research, please consider citing our paper:
 ```
