@@ -2,17 +2,24 @@
 
 The official repository for the paper [Neural Complexity Measures](https://arxiv.org/abs/2008.02953) (NeurIPS 2020) by Yoonho Lee et al.
 
-![](_assets/training_loop.png) 
+<p align="center">
+<img src="_assets/training_loop.png" width=80% height=80%>
+</p>
 This work proposes a meta-learning framework for predicting generalization.
 
-![](_assets/gap_definition.png) 
-Neural Complexity (NC) is a neural network which predicts the __generalization gap__ of other networks.
+<p align="center">
+<img src="_assets/gap_definition.png" width=60% height=60%>
+</p>
+Neural Complexity (NC) is a neural network which predicts the _generalization gap_ of other networks.
+
+
 
 ## 1D Regression Experiments
 The code inside `1d_regression/` is orgnized as follows.
 - `run.py` : Main entry point. Implements MemoryBank and NC's specific training loop. Run with `python run.py --OPTIONS`
 - `model/` : Contains definition of the NC network, along with parallelized task learners.
 - `data/` : Sinewave data generator
+
 
 
 ## Citation
