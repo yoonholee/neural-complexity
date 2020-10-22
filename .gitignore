@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# 1D Regression
+1d_regression/data/saved/
+1d_regression/result/
