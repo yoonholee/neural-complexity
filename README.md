@@ -10,7 +10,7 @@ This work proposes a meta-learning framework for predicting generalization.
 <p align="center">
 <img src="_assets/gap_definition.png" width=60% height=60%>
 </p>
-Neural Complexity (NC) is a neural network which predicts the _generalization gap_ of other networks.
+Neural Complexity (NC) is a neural network which predicts the generalization gap of other networks.
 
 
 
